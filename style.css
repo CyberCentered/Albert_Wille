@@ -2,6 +2,16 @@ html {
     background-color: #504B38;
 }
 
+@media (max-width: 600px) {
+    .top {
+        flex-direction: column;
+    }
+
+    .top img {
+        width: 140px;
+    }
+}
+
 .top img {
    height: 100px;
 }
@@ -14,45 +24,16 @@ html {
     justify-content: space-around;
 }
 
-.home {
-    font-size: 30px;
+.button {
+    font-size: 15px;
     color: black;
     background-color: lightgray;
     padding: 10px;
     border: solid black;
     border-radius: 10px;
-    margin: 30px 5%;
 }
 
-.resume {
-    font-size: 30px;
-    color: black;
-    background-color: lightgray;
-    padding: 10px;
-    border: solid black;
-    border-radius: 10px;
-    margin: 30px 5%;
-}
 
-.about {
-    font-size: 30px;
-    color: black;
-    background-color: lightgray;
-    padding: 10px;
-    border: solid black;
-    border-radius: 10px;
-    margin: 30px 5%;
-} 
-
-.contact {
-    font-size: 30px;
-    color: black;
-    background-color: lightgray;
-    padding: 10px;
-    border: solid black;
-    border-radius: 10px;
-    margin: 30px 5%;
-}
 
 .info h3 {
     color: black
