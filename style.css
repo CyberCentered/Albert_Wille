@@ -12,7 +12,6 @@ html {
     background-color: #B9B28A;
     border-radius: 20px;
     justify-content: space-around;
-
 }
 
 .home {
@@ -55,8 +54,21 @@ html {
     margin: 30px 5%;
 }
 
+.info h3 {
+    color: black
+}
+
+.info {
+    color: #B9B28A;
+    font-size: 20px;
+    text-align: justify; 
+}
+
 p {
     color: #B9B28A;
     font-size: 20px;
     text-align: justify;
 }
+
+a {
+   color: black}
